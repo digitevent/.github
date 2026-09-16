@@ -4,15 +4,17 @@ Here are defined our general and cross projects contribution guidelines.
 
 ## Creating an issue
 
-Issues fall into 5 categories, each with its own template and a pre-assigned issue type:
+Issues fall into 5 categories. Each has its own template and its own issue type:
 
-| Template                        | Issue type | Use it for                                                                      |
-| ------------------------------- | ---------- | ------------------------------------------------------------------------------- |
-| `🐛 Bug`                        | Bug        | An unexpected problem or behavior in the system.                                |
-| `✨ New Feature`                | Feature    | Functionality that does not exist yet.                                          |
-| `📈 Feature improvement`        | Feature    | An enhancement to existing functionality.                                       |
-| `🔧 Technical refactor or task` | Task       | Work with no user-visible behavior change, or any other distinct piece of work. |
-| `🔒 Security`                   | Task       | A vulnerability or a security concern.                                          |
+| Template                     | Issue type              | Use it for                                                    |
+| ---------------------------- | ----------------------- | ------------------------------------------------------------- |
+| `🐛 Bug`                     | `Bug`                   | An unexpected problem or behavior.                            |
+| `✨ New feature`             | `New feature`           | Something new that delivers value.                            |
+| `📈 Feature improvement`     | `Feature improvement`   | An enhancement to existing functionality.                     |
+| `🔧 Tech refactor or task`   | `Tech refactor or task` | A specific piece of work, with no user-visible change.        |
+| `🔒 Security`                | `Security`              | A vulnerability or a security concern.                        |
+
+Each template maps to exactly one issue type, so picking the template sets the type.
 
 Blank issues are disabled, always pick a template.
 
