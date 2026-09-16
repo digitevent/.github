@@ -1,5 +1,6 @@
 ---
 name: "🔧 Technical refactor or task"
+about: Work with no user-visible behavior change.
 type: "Task"
 ---
 

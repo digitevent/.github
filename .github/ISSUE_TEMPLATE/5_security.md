@@ -1,5 +1,6 @@
 ---
 name: "🔒 Security"
+about: A vulnerability or a security concern.
 type: "Task"
 ---
 

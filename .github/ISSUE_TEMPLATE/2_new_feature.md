@@ -1,5 +1,6 @@
 ---
 name: "✨ New Feature"
+about: Functionality that does not exist yet.
 type: "Feature"
 ---
 
