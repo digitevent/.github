@@ -4,38 +4,23 @@ Here are defined our general and cross projects contribution guidelines.
 
 ## Creating an issue
 
-Issues falls into 4 main categories:
+Issues fall into 5 categories, each with its own template and a pre-assigned issue type:
 
-- bug report
-- feature request
-- task
-- epic
+| Template                     | Issue type | Use it for                                                                     |
+| ---------------------------- | ---------- | ------------------------------------------------------------------------------ |
+| `Bug`                        | Bug        | An unexpected problem or behavior in the system.                               |
+| `New Feature`                | Feature    | Functionality that does not exist yet.                                         |
+| `Feature improvement`        | Feature    | An enhancement to existing functionality.                                      |
+| `Technical refactor or task` | Task       | Work with no user-visible behavior change, or any other distinct piece of work. |
+| `Security`                   | Task       | A vulnerability or a security concern.                                         |
 
-When creating a new issue, pick the corresponding template and provide as much information as you can.
+Blank issues are disabled, always pick a template.
 
-### Bug report
+The templates are intentionally empty: the issue type already carries the category, so use the body to describe the problem or the work in your own words and provide as much context as you can.
 
-A bug report is an issue describing a bug in the system. Depending in its priority level, a bug report may need to be addressed as soon as possible (very high priority, i.e. hotfix) or later down the road (low priority).
+Issues created from a template carry no label and are added to the team's iteration project by default.
 
-See [template](.github/ISSUE_TEMPLATE/bug_report.md).
-
-### Feature request
-
-A feature request is an issue describing a suggestion for the project. It centralize discussions and ideas related to a potential change in a single place. A feature request is not ready to be transformed into actual work to do until the specifications are clearly defined, usually in a standalone issue with clearer scope and requirements (task(s) or epic).
-
-See [template](.github/ISSUE_TEMPLATE/feature_request.md).
-
-### Task
-
-A task is an issue describing an enhancement or change that is not a bug. It defines small, distinct pieces of work with precise scope and requirements. A large body of work can be split into many tasks and tracked inside a single epic.
-
-See [template](.github/ISSUE_TEMPLATE/task.md).
-
-### Epic
-
-An epic is an issue regrouping many tasks under a "parent" issue. It defines the overall purpose and features developed inside many tasks composing a common body of work.
-
-See [template](.github/ISSUE_TEMPLATE/bug_report.md).
+See the [templates](.github/ISSUE_TEMPLATE).
 
 ## Making a pull request
 
