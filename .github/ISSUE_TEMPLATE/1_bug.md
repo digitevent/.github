@@ -1,5 +1,6 @@
 ---
 name: "🐛 Bug"
+about: An unexpected problem or behavior.
 type: "Bug"
 ---
 
