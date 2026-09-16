@@ -6,19 +6,19 @@ Here are defined our general and cross projects contribution guidelines.
 
 Issues fall into 5 categories, each with its own template and a pre-assigned issue type:
 
-| Template                     | Issue type | Use it for                                                                     |
-| ---------------------------- | ---------- | ------------------------------------------------------------------------------ |
-| `Bug`                        | Bug        | An unexpected problem or behavior in the system.                               |
-| `New Feature`                | Feature    | Functionality that does not exist yet.                                         |
-| `Feature improvement`        | Feature    | An enhancement to existing functionality.                                      |
-| `Technical refactor or task` | Task       | Work with no user-visible behavior change, or any other distinct piece of work. |
-| `Security`                   | Task       | A vulnerability or a security concern.                                         |
+| Template                        | Issue type | Use it for                                                                      |
+| ------------------------------- | ---------- | ------------------------------------------------------------------------------- |
+| `🐛 Bug`                        | Bug        | An unexpected problem or behavior in the system.                                |
+| `✨ New Feature`                | Feature    | Functionality that does not exist yet.                                          |
+| `📈 Feature improvement`        | Feature    | An enhancement to existing functionality.                                       |
+| `🔧 Technical refactor or task` | Task       | Work with no user-visible behavior change, or any other distinct piece of work. |
+| `🔒 Security`                   | Task       | A vulnerability or a security concern.                                          |
 
 Blank issues are disabled, always pick a template.
 
 The templates are intentionally empty: the issue type already carries the category, so use the body to describe the problem or the work in your own words and provide as much context as you can.
 
-Issues created from a template carry no label and are added to the team's iteration project by default.
+Issues created from a template carry no label. Adding them to the 🚀 Iterations project is handled by that project's own auto-add workflow, not by the templates.
 
 See the [templates](.github/ISSUE_TEMPLATE).
 
